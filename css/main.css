@@ -1,0 +1,102 @@
+/***Squares_js***/
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wrapper .main-table {
+    border: 2px solid #48aae6;
+    margin: 61px;
+}
+
+.wrapper .main-table td {
+    background-color: #48aae6;
+    min-width: 55px;
+    height: 55px;
+}
+
+.wrapper .button-add {
+    width: 55px;
+    height: 55px;
+    font-size: 24px;
+    color: white;
+    background: #f3a500;
+    border: 0;
+    padding: 0;
+    transition: background-color 1s ease-in-out;
+    outline: none;
+    text-align: center;
+}
+
+.wrapper .button-add:hover {
+    cursor: pointer;
+    background-color: #f6c151;
+    transition: background-color 1s ease-in-out;
+}
+
+.wrapper .add-row {
+    position: absolute;
+    bottom: 3px;
+    left: 65px;
+}
+
+.wrapper .add-col {
+    position: absolute;
+    right: 3px;
+    top: 65px;
+}
+
+.del-btn {
+    width: 55px;
+    height: 55px;
+    font-size: 34px;
+    color: white;
+    background: #B50203;
+    border: 0;
+    position: absolute;
+    pointer-events: none;
+    visibility: hidden;
+    outline: none;
+    text-align: center;
+}
+
+.del-btn:hover {
+    cursor: pointer;
+    background-color: #cb4b47;
+    transition: background-color 1s ease-in-out;
+}
+
+.del-btn1 {
+    position: absolute;
+    left: 60px;
+    transition: left .3s ease-out, background-color 1s ease-in-out;
+    margin-top: 3px;
+
+}
+.del-btn2 {
+    position: absolute;
+    top: 60px;
+    transition: top .3s ease-out, background-color 1s ease-in-out;
+    margin-left: 3px;
+}
+
+.del-btn:hover {
+    cursor: pointer;
+    background-color: #cb4b47;
+    transition: background-color 1s ease-in-out;
+}
+
+.visible {
+    pointer-events: auto;
+    visibility: visible;
+}
+
+
+
+
